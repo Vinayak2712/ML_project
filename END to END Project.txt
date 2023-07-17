@@ -58,4 +58,5 @@ setup(
 
 16) create source folder in VSCODE "src" , in src again create "__init__.py" to initialize 
 
-17)  
+17)  create "components" folder , where we include the module of the project we are doing so
+     files to be created in this folder are,  1)__init__.py 2) data_ingestion.py 3) data_transformation.py , 4) model_trainer.py
