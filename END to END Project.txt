@@ -1,0 +1,61 @@
+END to END Project
+Set up Project With Github 
+
+1. Data Ingestion
+2. Data Transformation
+3. Model Trainer
+4. Model Evaluation
+5. Model Deployment 
+
+CI/CD Pipelines- Github Actions Deployment - AWS 
+
+
+
+Agenda 
+
+1- Set up the Github {Repository}
+   a) new Environment
+   b) setup.py
+   c) requirements.txt
+
+Steps 
+1. launch VS-code from the main folder of project
+2. open new terminal -> open cmd -> python -m venv test/venv/myenv (creating environment)
+3. test\Scripts\activate   (for activation)
+4. git init
+5. create a README.md file 
+6. git init
+7. git add README.md
+8. git commit -m "first commit"
+9. git branch -M main
+10. git remote add origin https://github.com/Vinayak2712/ML_project.git
+11. git push -u origin main
+
+12. Create .gitignore file in Github select Python in it 
+
+13.create "requirement.txt" file
+
+14. create "setup.py" this is useful bcz.. it will give us whole ML package as out put which can be deployed and thta can be used by any other.
+
+15. in setup files
+     from setuptools import find_packages, setup
+
+
+
+
+setup(
+    name= 'MLproject',
+    version= '0.0.1',
+    author= 'Vinayak',
+    author_email= 'vinzyshivanagutti@gmail.com',
+    packages= find_packages(),
+    install_requires =['pandas','numpy','seaborn']
+
+)
+
+
+
+
+16) create source folder in VSCODE "src" , in src again create "__init__.py" to initialize 
+
+17)  
